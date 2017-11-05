@@ -1,0 +1,15 @@
+<html>
+<head>
+    <meta name="package-mapping" content="specialist:system.ui.specialist"/>
+</head>
+<body>
+<vaadin-vertical-layout _id="mainLayout" size-full>
+    <vaadin-horizontal-layout>
+        <vaadin-text-field _id="filter" placeholder="Filter by last name"></vaadin-text-field>
+        <vaadin-button _id="addNewButton">Add new specialist</vaadin-button>
+    </vaadin-horizontal-layout>
+    <vaadin-grid _id="specialistGrid"/>
+    <specialist-specialist-editor _id="specialistEditor" visible="false"/>
+</vaadin-vertical-layout>
+</body>
+</html>
